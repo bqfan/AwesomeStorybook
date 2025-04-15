@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
+import "./global.css"
 
 function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text className="text-teal-500 text-lg font-bold">Open up App.tsx to start working on your app!</Text>
     </View>
   );
 }
