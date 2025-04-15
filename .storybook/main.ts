@@ -1,7 +1,10 @@
 import type { StorybookConfig } from "@storybook/react-native-web-vite";
+import { mergeConfig } from "vite";
+import tailwindcss from "tailwindcss";
+import autoprefixer from "autoprefixer";
 
 const main: StorybookConfig = {
-  stories: ["../components/**/*.mdx", "../components/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ["../components/**/*.stories.@(js|jsx|ts|tsx|mdx)"],
 
   addons: [
     "@storybook/addon-links",
@@ -20,6 +23,16 @@ const main: StorybookConfig = {
 
   typescript: {
     reactDocgen: "react-docgen",
+  },
+
+  viteFinal: async (config) => {
+    return mergeConfig(config, {
+      css: {
+        postcss: {
+          plugins: [tailwindcss, autoprefixer],
+        },
+      },
+    });
   },
 };
 
