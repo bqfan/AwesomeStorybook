@@ -1,12 +1,18 @@
-const path = require("path");
+const path = require("node:path");
 const { getDefaultConfig } = require("expo/metro-config");
-
-const defaultConfig = getDefaultConfig(__dirname);
-
+const { withNativeWind } = require("nativewind/metro");
 const withStorybook = require("@storybook/react-native/metro/withStorybook");
 
-module.exports = withStorybook(defaultConfig, {
+let config = getDefaultConfig(__dirname);
+
+// Add NativeWind support
+config = withNativeWind(config, { input: "./global.css" });
+
+// Add Storybook support
+config = withStorybook(config, {
   enabled: process.env.EXPO_PUBLIC_STORYBOOK_ENABLED === "true",
   configPath: path.resolve(__dirname, "./.rnstorybook"),
   onDisabledRemoveStorybook: true,
 });
+
+module.exports = config;

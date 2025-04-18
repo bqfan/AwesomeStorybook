@@ -25,6 +25,7 @@ export default ({ config }) => ({
     },
   },
   web: {
+    bundler: "metro",
     favicon: "./assets/favicon.png",
   },
 });
