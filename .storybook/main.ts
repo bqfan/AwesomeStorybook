@@ -4,7 +4,8 @@ import tailwindcss from "tailwindcss";
 import autoprefixer from "autoprefixer";
 
 const main: StorybookConfig = {
-  stories: ["../components/**/*.stories.@(js|jsx|ts|tsx|mdx)"],
+  stories: [
+    "../components/**/*.stories.@(js|jsx|ts|tsx|mdx)"],
 
   addons: [
     "@storybook/addon-links",
