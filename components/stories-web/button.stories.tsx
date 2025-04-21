@@ -19,17 +19,16 @@ export const Primary: Story = {
   render: (props) => (
     <Button
       {...props}
-      className="text-teal-500 border border-gray-400 px-4 py-2 rounded-lg"
+      className="self-center px-8 py-2 bg-teal-700 rounded-lg web:hover:bg-teal-600 native:active:bg-teal-600 text-white text-lg font-bold"
       onClick={() => {
-        alert("Hello from Turborepo!");
+        alert("ReactJS Button!");
       }}
     >
-      Hello
     </Button>
   ),
   name: "Button",
   args: {
-    children: "Hello",
+    children: "ReactJS Button",
     type: "button",
   },
 };

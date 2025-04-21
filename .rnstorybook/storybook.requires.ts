@@ -10,13 +10,13 @@ import "@storybook/addon-ondevice-actions/register";
 const normalizedStories = [
   {
     titlePrefix: "",
-    directory: "./components",
+    directory: "./components/stories-rn",
     files: "**/*.stories.?(ts|tsx|js|jsx)",
     importPathMatcher:
       /^\.(?:(?:^|\/|(?:(?:(?!(?:^|\/)\.).)*?)\/)(?!\.)(?=.)[^/]*?\.stories\.(?:ts|tsx|js|jsx)?)$/,
     // @ts-ignore
     req: require.context(
-      "../components",
+      "../components/stories-rn",
       true,
       /^\.(?:(?:^|\/|(?:(?:(?!(?:^|\/)\.).)*?)\/)(?!\.)(?=.)[^/]*?\.stories\.(?:ts|tsx|js|jsx)?)$/
     ),

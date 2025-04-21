@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'node:path';
 
 /** @type{import("@storybook/react-webpack5").StorybookConfig} */
 module.exports = {

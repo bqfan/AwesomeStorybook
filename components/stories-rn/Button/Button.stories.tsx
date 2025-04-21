@@ -25,6 +25,6 @@ type Story = StoryObj<typeof meta>;
 export const Basic: Story = {
   args: {
     onPress: () => {},
-    text: "Hello world",
+    text: "React Native Button",
   },
 };
