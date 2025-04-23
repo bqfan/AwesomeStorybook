@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-import "./global.css"
+import "../../global.css"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
 let AppEntryPoint = App;
 
 if (process.env.EXPO_PUBLIC_STORYBOOK_ENABLED === "true") {
-  AppEntryPoint = require("./.rnstorybook").default;
+  AppEntryPoint = require("../../.rnstorybook").default;
 }
 
 const styles = StyleSheet.create({

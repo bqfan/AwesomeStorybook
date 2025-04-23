@@ -2,7 +2,7 @@ import path from 'node:path';
 
 /** @type{import("@storybook/react-webpack5").StorybookConfig} */
 module.exports = {
-  stories: ['../components/**/*.mdx', '../components/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../src/components/**/*.mdx', '../src/components/**/*.stories.@(js|jsx|ts|tsx)'],
 
   addons: ["@storybook/addon-links", "@storybook/addon-essentials", {
     name: '@storybook/addon-react-native-web',
