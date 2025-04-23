@@ -3,6 +3,8 @@ export default ({ config }) => ({
   name: "HelloWorld",
   slug: "expo-template-blank-typescript",
   version: "1.0.0",
+  scheme: "awsomestorybook",
+  userInterfaceStyle: "automatic",
   orientation: "portrait",
   icon: "./assets/icon.png",
   newArchEnabled: true,
