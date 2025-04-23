@@ -15,7 +15,11 @@
     "storybook:ios": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo start --ios",
     "storybook:android": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo start --android",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "type-check": "npx tsc --noEmit",
+    "prettier:check": "npx prettier . --check",
+    "prettier:fix": "npx prettier . --write",
+    "prepare": "husky"
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^5.1.1",
@@ -78,6 +82,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.5.1",
     "storybook": "^8.6.12",
+    "type-check": "^0.4.0",
     "typescript": "~5.3.3",
     "typescript-eslint": "^8.31.0",
     "vite": "^6.0.11"

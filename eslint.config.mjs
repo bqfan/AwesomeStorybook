@@ -16,6 +16,8 @@ export default defineConfig([
       "postcss.config.js",
       "metro.config.js",
       "babel.config.js",
+      "commitlint.config.js",
+      "lint-staged.config.js",
     ],
   },
   tseslint.configs.recommended,
