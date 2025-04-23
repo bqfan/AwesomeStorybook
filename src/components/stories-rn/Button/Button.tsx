@@ -1,3 +1,4 @@
+import React from "react";
 import { Pressable, Text, Alert, Platform } from "react-native";
 
 interface MyButtonProps {
