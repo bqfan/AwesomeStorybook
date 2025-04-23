@@ -1,3 +1,4 @@
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import "../../global.css"
 
@@ -12,6 +13,7 @@ function App() {
 let AppEntryPoint = App;
 
 if (process.env.EXPO_PUBLIC_STORYBOOK_ENABLED === "true") {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   AppEntryPoint = require("../../.rnstorybook").default;
 }
 
