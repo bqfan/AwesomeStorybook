@@ -1,4 +1,8 @@
-![picture of storybook](https://github.com/user-attachments/assets/cf98766d-8b90-44ab-b718-94ab16e63205)
+![Screenshot 2025-04-25 at 21 48 39](https://github.com/user-attachments/assets/fe985431-b4f9-4cea-9670-d3300f45cabb)
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-04-25 at 21 49 59](https://github.com/user-attachments/assets/feba8c1c-6ca5-48cb-a452-0abe5914c693)
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-04-25 at 21 50 25](https://github.com/user-attachments/assets/32f1b08a-f3cd-4103-81ec-83ec4f34e8eb)
+![Screenshot_1745607057](https://github.com/user-attachments/assets/8e3e5b60-369b-4c86-a4b9-3458c8b5059f)
+![Screenshot_1745607063](https://github.com/user-attachments/assets/4d1bc1ec-330e-45c0-a95a-a1333ed30d9c)
 
 # getting started
 
