@@ -1,8 +1,7 @@
-![Storybook Web](https://github.com/user-attachments/assets/fe985431-b4f9-4cea-9670-d3300f45cabb|width=300)
-![Storybook iOS](https://github.com/user-attachments/assets/feba8c1c-6ca5-48cb-a452-0abe5914c693|width=100)
-![Storybook iOS](https://github.com/user-attachments/assets/32f1b08a-f3cd-4103-81ec-83ec4f34e8eb|width=100)
-![Storybook Android](https://github.com/user-attachments/assets/8e3e5b60-369b-4c86-a4b9-3458c8b5059f|width=100)
-![Storybook Android](https://github.com/user-attachments/assets/4d1bc1ec-330e-45c0-a95a-a1333ed30d9c|width=100)
+<img src="https://github.com/user-attachments/assets/e60ce50d-e0fa-44cb-8ec0-685e70808ac5" alt="Storybook Web" style="width:60%; height:auto;">
+<img src="https://github.com/user-attachments/assets/a0fc1cb3-d3f4-4598-baaf-2f75c56504f4" alt="Storybook iOS" style="width:18%; height:auto;">
+<img src="https://github.com/user-attachments/assets/c2f8d6ec-318d-4b59-9ac2-4ac2d442ca13" alt="Storybook Android" style="width:18%; height:auto;">
+
 
 # getting started
 
