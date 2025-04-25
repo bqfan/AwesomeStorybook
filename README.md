@@ -3,19 +3,17 @@
 # getting started
 
 ```sh
-npx create-expo-app --template expo-template-storybook AwesomeStorybook
+git clone https://github.com/bqfan/AwesomeStorybook AwesomeStorybook
 ```
 
-or
-
 ```sh
-yarn create expo-app --template expo-template-storybook AwesomeStorybook
+pnpm install
 ```
 
 # app
 
 ```sh
-yarn start
+pnpm start
 ```
 
 # RN Storybook (ondevice)
@@ -25,13 +23,13 @@ This works via env variables and expo constants.
 
 ```sh
 # either
-yarn storybook
+pnpm storybook
 
 # ios
-yarn storybook:ios
+pnpm storybook:ios
 
 # android
-yarn storybook:android
+pnpm storybook:android
 ```
 
 If you add new stories on the native (ondevice version) you either need to have the watcher running or run the stories loader
@@ -39,7 +37,7 @@ If you add new stories on the native (ondevice version) you either need to have 
 To update the stories one time
 
 ```sh
-yarn storybook-generate
+pnpm storybook-generate
 ```
 
 # Web
@@ -47,11 +45,11 @@ yarn storybook-generate
 Start react native web storybook:
 
 ```
-yarn storybook:web
+pnpm storybook:web
 ```
 
 build react native web storybook:
 
 ```sh
-yarn build-storybook
+pnpm build-storybook
 ```
