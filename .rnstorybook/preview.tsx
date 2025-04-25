@@ -27,6 +27,11 @@ const preview: Preview = {
         date: /Date$/,
       },
     },
+    options: {
+      storySort: {
+        order: ['Introduction', 'Components', 'Pages'],
+      },
+    },
   },
 };
 

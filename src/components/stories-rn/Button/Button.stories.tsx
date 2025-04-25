@@ -4,7 +4,7 @@ import { View } from "react-native";
 import { MyButton } from "./Button";
 
 const meta = {
-  title: "MyButton",
+  title: "Components/React Native/Button",
   component: MyButton,
   args: {
     text: "Hello world",
