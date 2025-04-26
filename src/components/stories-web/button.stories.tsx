@@ -5,6 +5,13 @@ import { Button } from "./button";
 const meta: Meta<typeof Button> = {
   title: 'Components/ReactJS/Button',
   component: Button,
+  parameters: {
+    docs: {
+      description: {
+        component: 'A button component is a graphical user interface element that enables users to act by clicking or tapping.',
+      },
+    },
+  },
   argTypes: {
     type: {
       control: { type: "radio" },
@@ -18,6 +25,13 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = {
+  parameters: {
+    docs: {
+      description: {
+        story: 'This is a primary Button component example.  A button is a component that users can tap to trigger an action.',
+      },
+    },
+  },
   render: (props) => (
     <Button
       {...props}
