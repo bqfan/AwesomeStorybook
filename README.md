@@ -21,7 +21,7 @@ pnpm start
 
 # RN Storybook (ondevice)
 
-In this template you can now run `yarn storybook` to start ondevice storybook or `yarn start` to start your expo app.
+In this template you can now run `pnpm storybook` to start ondevice storybook or `pnpm start` to start your expo app.
 This works via env variables and expo constants.
 
 ```sh
